@@ -1,0 +1,14 @@
+﻿{
+  "id": "S95.Umbraco.GoogleTranslate",
+  "name": "Umbraco Google Translate",
+  "version": "1.0.0",
+  "css": [
+    "~/App_Plugins/S95.Umbraco.GoogleTranslate/Css/googleTranslateStyle.css"
+  ],
+  "javascript": [
+    "~/App_Plugins/S95.Umbraco.GoogleTranslate/Scripts/googleTranslate.service.js",
+    "~/App_Plugins/S95.Umbraco.GoogleTranslate/Scripts/googleTranslateButton.component.js",
+    "~/App_Plugins/S95.Umbraco.GoogleTranslate/Scripts/googleTranslateButton.decorator.js",
+    "~/App_Plugins/S95.Umbraco.GoogleTranslate/Scripts/googleTranslateEditor.controller.js"
+  ]
+}
