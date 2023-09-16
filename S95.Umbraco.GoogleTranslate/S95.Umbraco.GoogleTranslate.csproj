@@ -7,9 +7,9 @@
     <PackageId>S95.Umbraco.GoogleTranslate</PackageId>
     <Title>S95.Umbraco.GoogleTranslate</Title>
     <Description>Plugin for Umbraco CMS which integrates Google Translate.</Description>
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
     <PackageTags>umbraco plugin package</PackageTags>
     <Authors>Smayke95</Authors>
     <PackageProjectUrl>https://github.com/Smayke95/Umbraco.GoogleTranslate</PackageProjectUrl>
@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <PackageReference Include="Google.Cloud.Translation.V2" Version="3.2.0" />
-    <PackageReference Include="Umbraco.Cms.Web.Website" Version="10.0.0" />
     <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="10.0.0" />
   </ItemGroup>
 
