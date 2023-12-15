@@ -1,0 +1,17 @@
+﻿.google-translate-text-area {
+    width: 100%;
+}
+
+.google-translate-select {
+    width: 198px;
+}
+
+.google-translate-load-indicator {
+    height: 220px;
+}
+
+.icon-google-translate {
+    background-image: url('/App_Plugins/S95.Umbraco.GoogleTranslate/Icons/icon-google-translate.svg');
+    display: inline-block;
+    width: 15px;
+}

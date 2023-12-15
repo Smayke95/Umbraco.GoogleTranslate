@@ -1,0 +1,34 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "Title": "S95.Umbraco.GoogleTranslate",
+  "AuthorDetails": {
+    "Name": "Smayke95",
+    "Url": "https://smayke95.github.io/"
+  },
+  "AlternatePackageNames": [
+    "Umbraco GoogleTranslate"
+  ],
+  "Category": "Translations",
+  "DocumentationUrl": "https://github.com/Smayke95/Umbraco.OpenAI",
+  "IssueTrackerUrl": "https://github.com/Smayke95/Umbraco.OpenAI/issues",
+  "LicenseTypes": [
+    "Free"
+  ],
+  "PackageType": "Package",
+  "PackagesByAuthor": [
+    "S95.Umbraco.OpenAI"
+  ],
+  "Screenshots": [
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/Smayke95/Umbraco.GoogleTranslate/master/Screenshot_1.jpg",
+      "Caption": "Screenshot 1"
+    },
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/Smayke95/Umbraco.GoogleTranslate/master/Screenshot_2.jpg",
+      "Caption": "Screenshot 2"
+    }
+  ],
+  "Tags": [
+    "translation"
+  ]
+}

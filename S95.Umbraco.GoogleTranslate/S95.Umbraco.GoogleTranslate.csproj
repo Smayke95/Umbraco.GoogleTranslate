@@ -7,13 +7,14 @@
     <PackageId>S95.Umbraco.GoogleTranslate</PackageId>
     <Title>S95.Umbraco.GoogleTranslate</Title>
     <Description>Plugin for Umbraco CMS which integrates Google Translate.</Description>
-    <Version>1.0.1</Version>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
-    <PackageTags>umbraco plugin package</PackageTags>
+    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
+    <FileVersion>1.0.3</FileVersion>
+    <PackageTags>umbraco umbraco-marketplace plugin package</PackageTags>
     <Authors>Smayke95</Authors>
     <PackageProjectUrl>https://github.com/Smayke95/Umbraco.GoogleTranslate</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Smayke95/Umbraco.GoogleTranslate</RepositoryUrl>
+    <PackageIcon>icon-google-translate.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
@@ -24,8 +25,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="App_Plugins\S95.Umbraco.GoogleTranslate\**" ExcludeFromSingleFile="true" CopyToPublishDirectory="Always" />
-    <None Include="buildTransitive\**" Pack="true" PackagePath="buildTransitive" />
+    <EmbeddedResource Include="Css\googleTranslateStyle.css" />
+    <EmbeddedResource Include="Icons\icon-google-translate.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\icon-google-translate.svg" />
+    <EmbeddedResource Include="Scripts\googleTranslate.service.js" />
+    <EmbeddedResource Include="Scripts\googleTranslateButton.component.js" />
+    <EmbeddedResource Include="Scripts\googleTranslateButton.decorator.js" />
+    <EmbeddedResource Include="Scripts\googleTranslateEditor.controller.js" />
+    <EmbeddedResource Include="Views\googleTranslateButton.html" />
+    <EmbeddedResource Include="Views\googleTranslateEditor.html" />
   </ItemGroup>
 
   <ItemGroup>
