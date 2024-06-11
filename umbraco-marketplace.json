@@ -9,13 +9,14 @@
     "Umbraco GoogleTranslate"
   ],
   "Category": "Translations",
-  "DocumentationUrl": "https://github.com/Smayke95/Umbraco.OpenAI",
-  "IssueTrackerUrl": "https://github.com/Smayke95/Umbraco.OpenAI/issues",
+  "DocumentationUrl": "https://github.com/Smayke95/Umbraco.GoogleTranslate",
+  "IssueTrackerUrl": "https://github.com/Smayke95/Umbraco.GoogleTranslate/issues",
   "LicenseTypes": [
     "Free"
   ],
   "PackageType": "Package",
   "PackagesByAuthor": [
+    "S95.AspNetCore.Cloudinary",
     "S95.Umbraco.OpenAI"
   ],
   "Screenshots": [
