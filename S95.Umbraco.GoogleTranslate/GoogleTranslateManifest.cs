@@ -10,7 +10,7 @@ public class GoogleTranslateManifest : IManifestFilter
         manifests.Add(new PackageManifest
         {
             PackageName = "Umbraco Google Translate",
-            Version = "1.0.5",
+            Version = "1.0.6",
             Stylesheets = new[]
             {
                 "/App_Plugins/S95.Umbraco.GoogleTranslate/Css/googleTranslateStyle.css"

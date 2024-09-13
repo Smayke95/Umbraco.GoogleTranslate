@@ -13,7 +13,9 @@
             targetLanguage = 'en';
 
         $scope.translateRequest = {
-            text: $scope.model.umbracoProperty.property.value,
+            text: $scope.model.umbracoProperty.property.editor == 'Umbraco.TinyMCE'
+                ? $scope.model.umbracoProperty.property.value.markup
+                : $scope.model.umbracoProperty.property.value,
             sourceLanguage: '',
             targetLanguage: targetLanguage
         };
@@ -38,6 +40,11 @@
 
         $scope.submit = function () {
             $scope.model.umbracoProperty.property.value = $scope.translateResponse.text;
+
+            if ($scope.model.umbracoProperty.property.editor == 'Umbraco.TinyMCE') {
+                $scope.model.umbracoProperty.property.onValueChanged($scope.translateResponse.text, '');
+            }
+
             notificationsService.success('Success', $scope.model.umbracoProperty.property.label + ' updated');
             $scope.model.close();
         }
